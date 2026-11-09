@@ -19,8 +19,10 @@ function Inicio() {
                     </p>
 
                     <div className="hero-botoes">
-                        <Link to="/agendamento" className="botao">Agendar agora</Link>
-                        <a href="/servicos" className="botao contorno">Ver serviços</a>
+                       <div className="hero-botoes">
+    <Link to="/agendamento" className="botao">Agendar agora</Link>
+    <Link to="/servicos" className="botao contorno">Ver serviços</Link>
+</div>
                     </div>
                 </section>
 
